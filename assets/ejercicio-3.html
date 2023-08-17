@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega 1 - Ejercicio3</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Ejercicio 1</a>
+            <a href="./ejercicio-2.html">Ejercicio 2</a>
+            <a href="#">Ejercicio 3</a>
+        </nav>
+    </header> 
+    <main>
+        <h1>Formulario de registro</h1>
+        <form action="../show-data.html">
+            <div>
+                <label for="Nombre">Nombre:</label>
+                <input type="text" name="Nombre" id="Nombre" required>
+            </div><br>
+
+            <div>
+                <label for="Apellido">Apellido:</label>
+                <input type="text" name="Apellido" id="Apellido" required>
+            </div>
+
+            <p>Modalidad de la cursada:
+                <input type="radio" name="Modalidad" id="On-Demand" required>
+                <label for="On-Demand">On-Demand</label>
+
+                <input type="radio" name="Modalidad" id="EnVivo" required>
+                <label for="EnVivo">En vivo</label>
+            </p>
+            <div>
+                <label for="email">Correo:</label>
+                <input type="email" name="Mail" id="email"><br>
+            </div><br>
+            <div>
+                <input type="checkbox" name="mails" id="mails" checked>
+                <label for="mails">Deseo recibir información sobre nuevos  posteos  en la plataforma de Nucba.</label><br>
+            </div><br>
+            <div>
+                <input type="checkbox" name="terminos" id="términos" required>
+                <label for="términos">Declaro que lei los términos y conficiones y estoy listo para convertirme en desarrollador Web Full Stack.</label>
+            </div><br>
+            <input type="submit" value="Enviar">
+
+        </form>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+    </footer>
+</body>
+</html>
